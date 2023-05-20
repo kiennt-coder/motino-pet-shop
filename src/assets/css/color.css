@@ -1,0 +1,89 @@
+/**
+ * Created by Kiennt
+ * User: https://github.com/kiennt-coder
+ * Date: 11/12/2022
+ * Description: Tạo class màu chung cho dự án (project)
+*/
+
+/* Primary Color */
+/* Dark blue color */
+.primary-color {
+    color: var(--primary-color);
+}
+
+.primary-color-light {
+    color: var(--primary-color-light);
+}
+
+.primary-color-normal {
+    color: var(--primary-color-normal);
+}
+
+.primary-color-dark {
+    color: var(--primary-color-dark);
+}
+
+/* Second Color */
+/* Mon Yellow color */
+.second-color {
+    color: var(--second-color);
+}
+
+.second-color-light {
+    color: var(--second-color-light);
+}
+
+.second-color-normal {
+    color: var(--second-color-normal);
+}
+
+.second-color-dark {
+    color: var(--second-color-dark);
+}
+
+/* State color */
+.pink-red-color {
+    color: var(--pink-red-color);
+}
+
+.green-light-color {
+    color: var(--green-light-color);
+}
+
+.orange-shine-color {
+    color: var(--orange-shine-color);
+}
+
+.blue-sea-color {
+    color: var(--blue-sea-color);
+}
+
+/* Neutral color */
+.neutral-color {
+    color: var(--neutral-color);
+}
+
+.neutral-color-10 {
+    color: var(--neutral-color-10);
+}
+
+.neutral-color-20 {
+    color: var(--neutral-color-20);
+}
+
+.neutral-color-40 {
+    color: var(--neutral-color-40);
+}
+
+.neutral-color-60 {
+    color: var(--neutral-color-60);
+}
+
+.neutral-color-80 {
+    color: var(--neutral-color-80);
+}
+
+.neutral-color-100 {
+    color: var(--neutral-color-100);
+}
+

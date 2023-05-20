@@ -1,0 +1,80 @@
+/**
+ * Created by Kiennt
+ * User: https://github.com/kiennt-coder
+ * Date: 11/12/2022
+ * Description: Tạo css chung cho dự án (project)
+*/
+
+@import url("../fonts/font-gilroy/stylesheet.css");
+
+:root {
+    /* --------------- fonts --------------- */
+    --primary-font-family: "SVN-Gilroy";
+
+    /* --------------- colors --------------- */
+    /* Dark blue color */
+    --primary-color: #003459;
+    --primary-color-light: #0078CD;
+    --primary-color-normal: #00528C;
+    --primary-color-dark: #002A48;
+
+    /* Mon Yellow color */
+    --second-color: #F7DBA7;
+    --second-color-light: #FCEED5;
+    --second-color-light-2: #FFE7BA;
+    --second-color-normal: #F1D092;
+    --second-color-dark: #EEC77E;
+    --second-color-dark-2: #FFB775;
+
+    /* State color */
+    --pink-red-color: #FF564F;
+    --green-light-color: #34C759;
+    --orange-shine-color: #FF912C;
+    --blue-sea-color: #00A7E7;
+
+    /* Neutral color */
+    --neutral-color: #FDFDFD;
+    --neutral-color-10: #EBEEEF;
+    --neutral-color-20: #CCD1D2;
+    --neutral-color-40: #99A2A5;
+    --neutral-color-60: #667479;
+    --neutral-color-80: #242B33;
+    --neutral-color-100: #00171F;
+
+    /* ------------- responsive -------------- */
+    --media-sm: 576px;
+    --media-md: 768px;
+    --media-lg: 992px;
+    --media-xl: 1200px;
+
+}
+
+/* ----------------- global ----------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--primary-font-family);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+::selection {
+    color: var(--neutral-color);
+    background-color: var(--primary-color-light);
+}
